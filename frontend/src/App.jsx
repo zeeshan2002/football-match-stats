@@ -10,7 +10,7 @@ import CreateMatchForm from './components/CreateMatchForm';
 
         useEffect(() => {
             fetchMatches();
-        }, []);
+        }, [matches]);
 
         const fetchMatches = async () => {
             try {
